@@ -5,7 +5,7 @@ import './SwapItERC20.sol';
 import './libraries/Math.sol';
 import './libraries/UQ112x112.sol';
 import './interfaces/ISwapItCallee.sol';
-import './interfaces/ISwapItPair.sol';
+import './interfaces/ISwapItpair.sol';
 import './interfaces/IERC20.sol';
 
 contract SwapItPair is ISwapItPair, SwapItERC20 {
